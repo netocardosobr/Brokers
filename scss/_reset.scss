@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: white;
+    font-family: 'inter', sans-serif;
+}
+
+button {
+    border: none;
+    background-color: white;
+}

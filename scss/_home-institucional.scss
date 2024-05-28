@@ -1,0 +1,292 @@
+body {
+    header {
+        width: 100%;
+        height: 88px;
+        display: flex;
+        background-color: $primeira;
+        .container {
+            display: flex;
+            align-items: center;
+            nav {
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                ul {
+                    display: flex;
+                    gap: 40px;
+                    align-items: center;
+                    .burger {
+                        display: none;
+                    }
+                    li {
+                    color:#F5F6FA;
+                    text-align: center;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.48px;
+                    a {
+                        color: white;
+                    }
+                    }
+                    button {
+                        width: 177px;
+                        height: 48px;
+                        padding: 16px 24px;
+                        justify-content: center;
+                        align-items: center;
+                        color: black;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 100%;
+                        letter-spacing: -0.48px;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        .section-hero {
+            width: 100%;
+            height: 552px;
+            background: linear-gradient(263deg, $terceira, $primeira);
+            position: relative;
+            .container {
+                display: flex;
+                height: 552px;
+                position: relative;
+                .esquerda {
+                    width: 100%;
+                    max-width: 632px;
+                    height: 345px;
+                    p {
+                    color: white;
+                    line-height: 150%;
+                    letter-spacing: -0.54px;  
+                    margin-top: 24px;
+                    }
+                    button {
+                    height: 48px;
+                    padding: 16px 24px;
+                    justify-content: center;
+                    align-items: center; 
+                    color: black;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 100%;
+                    letter-spacing: -0.48px;
+                    margin-top: 45px;
+                    }
+                }
+                .direita {
+                    position: absolute;
+                    right: 0px;
+                    bottom: 0px;
+                    width: 100%;
+                    max-width: 590px;
+                    
+                }
+
+            }
+        }
+        .section-somos {
+            .container {
+                
+                .video {
+                    margin-top: 103px;
+                    position: relative;
+                    .textos {
+                        position: absolute;
+                        bottom: 77px;
+                        left: 77px;
+                        padding-right: 77px;
+                        h3 {
+                            margin-bottom:16px;
+                        }
+                        p {
+                            width: 100%;
+                            max-width: 1072px;
+                            color: white;
+                        }
+                    }
+                }
+                .produtos {
+                    margin-bottom: 170px;
+                    h3 {
+                        color: #2C624E;
+                        line-height: 120%; 
+                        letter-spacing: -1.2px;
+                        margin-top: 100px;
+                        margin-bottom: 50px;
+                    }
+                    .box {
+                        display: flex;
+                        gap: 34px;
+                        .card {
+                            .descricao {
+                                color:black;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 150%; 
+                                letter-spacing: -0.442px;
+                                max-width: 366px;
+                            }
+                            h4 {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section-beneficios {
+            width: 100%;
+            height: 1068px;
+            background-color: #E5E5E5;
+            .container {
+                h3 {
+                    color: $primeira;
+                    padding-top: 129px;
+                    margin-bottom: 50px;
+                }
+                .box {
+                    display: flex;
+                    gap: 32px;
+                    .card {
+                        width: 100%;
+                        max-width: 592px;
+                        height: 705px;
+                        background-color: white;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: center;
+                        padding: 40px;
+                        .conteudo {  
+                             h4 {
+                                margin-top: 38px;
+                                margin-bottom: 22px;
+                             }
+                             p {
+                                text-align: justify;
+                                line-height: 150%; 
+                                letter-spacing: -0.54px;
+                                width: 100%;
+                                max-width: 510px;
+                             }
+                        }
+                    }
+                }
+            }
+        }
+        .section-procurando {
+            width: 100%;
+            height: 464px;
+            background-color: $primeira;
+            display: flex;
+            align-items: center;
+            .container {
+                .itens {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    h2 {
+                        width: 100%;
+                        max-width: 646px;
+                        text-align: center;
+                        margin-bottom: 16px;
+                    }
+                    p {
+                        width: 545px;
+                        color: white;
+                        text-align: center;
+                        line-height: 150%; 
+                        letter-spacing: -0.66px;
+                        font-size: 2.2rem;
+                        margin-bottom: 24px;
+                        
+                    }
+                    button {
+                    height: 64px;
+                    padding: 16px 24px;
+                    width: 100%;
+                    max-width: 279px;
+                    color: black;
+                    font-family: 'Sora', sans-serif;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 100%; 
+                    letter-spacing: -0.54px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        height: 450px;
+        background-color: white;
+        .container {
+            .superior {
+                padding-top: 58px;
+                padding-bottom: 30px;
+                display: flex;
+                border-bottom: solid 1px rgba(0, 0, 0, 0.24);
+                .esquerda {
+                    img {
+                        margin-bottom: 24px;
+                    }
+                    p {
+                        color: black;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 150%; /* 24px */
+                        letter-spacing: -0.48px; 
+                        width: 279px;
+                    }
+                    
+                }
+                .direita {
+                    display: flex;
+                    gap: 112px;
+                    margin-left: 149px;
+                    ul {
+                        li {
+                            color: black;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 16px;
+                            letter-spacing: -0.48px;
+                            margin-bottom: 32px;
+                            
+                        }
+                        .titulo-lista {
+                            color: black;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 120%; /* 19.2px */
+                            letter-spacing: -0.48px;  
+                        }
+                        .rede-social {
+                            a {
+                            display: flex;
+                            gap: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+            .direitos {
+            color: #787C87;
+            font-size: 16px;
+            letter-spacing: -0.48px;   
+            margin-top: 24px;
+            }
+        }
+    }
+}
