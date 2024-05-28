@@ -17,7 +17,7 @@ body {
                     display: flex;
                     gap: 40px;
                     align-items: center;
-                    .burger {
+                    img {
                         display: none;
                     }
                     li {
@@ -53,7 +53,6 @@ body {
 
     main {
         .section-hero {
-            
             width: 100%;
             height: 552px;
             background: linear-gradient(263deg, $terceira, $primeira);
@@ -304,33 +303,48 @@ body {
 
 
 
-@media(max-width: 1000px) {
-    header {
-        .container {
-            nav {
-                ul {
-                    img {
-                        display: inline;
-                    }
-                    li {
-                        display: none;
-                    }
-                    button {
-                        display: none;
+@media(max-width: 1080px) {
+
+    body {
+        
+        header {
+            .container {
+                nav {
+                    ul {
+                        img {
+                            display: block;
+                        }
+                        button {
+                            display: none;
+                        }
+                        li {
+                            display: none;
+                        }
                     }
                 }
             }
         }
-    }
 
-    main {
-        .section-hero {
-            .container {
+
+        main {
+            .section-hero {
+                height: 800px;
+                position: relative;
+                .container {
+                    display: flex;
+                    flex-direction: column;
+                    height: 800px;
+                }
                 .esquerda {
-                   
+
+                }
+                .direita {
+                    position: absolute;
+                    bottom: 0px;
                 }
             }
         }
     }
 
 }
+
