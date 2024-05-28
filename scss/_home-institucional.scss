@@ -48,9 +48,12 @@ body {
                 }
             }
         }
+
     }
+
     main {
         .section-hero {
+            
             width: 100%;
             height: 552px;
             background: linear-gradient(263deg, $terceira, $primeira);
@@ -89,12 +92,15 @@ body {
                     bottom: 0px;
                     width: 100%;
                     max-width: 590px;
-                    
+                    img {
+                        width: 100%;
+                    }
                 }
 
             }
         }
         .section-somos {
+            display: none;
             .container {
                 
                 .video {
@@ -146,6 +152,7 @@ body {
             }
         }
         .section-beneficios {
+            display: none;
             width: 100%;
             height: 1068px;
             background-color: #E5E5E5;
@@ -185,10 +192,10 @@ body {
             }
         }
         .section-procurando {
+            display: none;
             width: 100%;
             height: 464px;
             background-color: $primeira;
-            display: flex;
             align-items: center;
             .container {
                 .itens {
@@ -228,7 +235,9 @@ body {
             }
         }
     }
+
     footer {
+        display: none;
         width: 100%;
         height: 450px;
         background-color: white;
@@ -289,4 +298,39 @@ body {
             }
         }
     }
+
+
+}
+
+
+
+@media(max-width: 1000px) {
+    header {
+        .container {
+            nav {
+                ul {
+                    li {
+                        display: none;
+                    }
+                    button {
+                        display: none;
+                    }
+                    .burger {
+                        display: inline;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .section-hero {
+            .container {
+                .esquerda {
+                   
+                }
+            }
+        }
+    }
+
 }
