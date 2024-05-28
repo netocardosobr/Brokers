@@ -309,14 +309,14 @@ body {
         .container {
             nav {
                 ul {
+                    img {
+                        display: inline;
+                    }
                     li {
                         display: none;
                     }
                     button {
                         display: none;
-                    }
-                    .burger {
-                        display: inline;
                     }
                 }
             }
