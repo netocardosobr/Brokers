@@ -59,8 +59,8 @@ body {
             position: relative;
             .container {
                 display: flex;
-                height: 552px;
                 position: relative;
+                height: 552px;
                 .esquerda {
                     width: 100%;
                     max-width: 632px;
@@ -85,15 +85,10 @@ body {
                     margin-top: 45px;
                     }
                 }
-                .direita {
+                img {
                     position: absolute;
                     right: 0px;
                     bottom: 0px;
-                    width: 100%;
-                    max-width: 590px;
-                    img {
-                        width: 100%;
-                    }
                 }
 
             }
@@ -328,17 +323,23 @@ body {
 
         main {
             .section-hero {
-                height: 800px;
-                position: relative;
+                height: 1000px;
                 .container {
                     display: flex;
+                    position: relative;
                     flex-direction: column;
-                    height: 800px;
+                    height: 1000px; aqui
+                    .esquerda {
+                        margin-top: 96px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+
+                    }
                 }
-                .direita {
-                    position: absolute;
-                    bottom: 0px;
-                }
+                
             }
         }
     }
