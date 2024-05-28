@@ -326,9 +326,8 @@ body {
                 height: 1000px;
                 .container {
                     display: flex;
-                    position: relative;
                     flex-direction: column;
-                    height: 1000px; aqui
+                    height: 1000px; 
                     .esquerda {
                         margin-top: 96px;
                         display: flex;
@@ -338,6 +337,7 @@ body {
                         text-align: center;
 
                     }
+                   
                 }
                 
             }
