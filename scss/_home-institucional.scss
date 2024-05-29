@@ -400,27 +400,16 @@ body {
                     .textos-mobile {
                         display: inline;
                         h3 {
-                            margin-top: 60px;
+                            margin-top: 40px;
                         }
                     }
                     .video {
                         display: none;
-                        }
-                    .produtos {
-                        .box {
-                            flex-direction: column;
-                            .card {
-                                img {
-                                    width: 100%;
-                                }
-                            }
-                            .consorcio {
-                                .descricao {
-                                    width: 100%;
-                                    max-width: 500px;
-                            }
-                        }
                     }
+                    .produtos {
+                        h3 {
+                            margin-top: 50px;
+                        }
                     }
                 }
             }
@@ -455,11 +444,41 @@ body {
                     }
                 }
             }
+            .section-somos {
+                .container {
+                    .produtos {
+                        .box {
+                            display: flex;
+                            flex-direction: column;
+                            img {
+                                width: 100%;
+                            }
+                            .consorcio {
+                                .descricao {
+                                    width: 100%;
+                                    max-width: 100%;
+                                }
+                            }
+                            .financiamento {
+                                .descricao {
+                                    width: 100%;
+                                    max-width: 100%;
+                                }
+                            }
+                            .alavancagem {
+                                .descricao {
+                                    width: 100%;
+                                    max-width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         
     }
 }
-
 @media(max-width: 427px) {
     body {
         main {
