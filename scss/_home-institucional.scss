@@ -244,7 +244,7 @@ body {
         }
     }
     footer {
-        display: none;
+        display: flex;
         width: 100%;
         height: 450px;
         background-color: white;
@@ -307,6 +307,39 @@ body {
     }
 }
 
+
+
+@media(max-width: 1180px) {
+    body {
+        footer {
+            .container {
+                .superior {
+                    justify-content: space-between;
+                  .esquerda {
+                    p {
+                        font-size: 1.5rem;
+                        width: 190px;
+                    }
+                  }  
+                 .direita {
+                    margin-left: 0px;
+                    ul {
+                        .titulo-lista {
+                            font-size: 1.5rem;
+
+                        }
+                        li {
+                            font-size: 1.5rem;
+                        }
+                    }
+                 }
+                }
+            }
+        }
+    }
+
+}
+
 @media(max-width: 1080px) {
 
     body {
@@ -367,6 +400,61 @@ body {
 
 }
 
+@media(max-width: 980px) {
+    body {
+        footer {
+            .container {
+                .superior {
+                    flex-direction: column;
+                    gap: 70px;
+                    justify-content: center;
+                    align-items: center;
+                    .esquerda {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        p {
+                            width: 370px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 700px) {
+    body {
+        footer {
+            .container {
+                .superior {
+                    .direita {
+                        flex-direction: column;
+                        gap: 30px;
+                        ul {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            li {
+                                margin-bottom: 10px;
+                                .rede-social {
+
+                                }
+                            }
+                        }
+                    }
+                }
+                .direitos {
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 29px;
+                }
+            }
+        }
+    }
+}
 @media(max-width: 667px) {
     body {
         main {
