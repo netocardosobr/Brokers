@@ -1,3 +1,136 @@
 body {
     background-color: rgb(156, 156, 156);
+    .section-hero {
+        height: 1715px;
+        background:linear-gradient(180deg, #122920, $primeira);
+        .container {
+            padding-top: 144px;
+            .top {
+                img {
+                    margin-bottom: 32px;
+                }
+                h1 {
+                    width: 100%;  
+                    max-width: 900px;  
+                    font-size: 60px;
+                    font-weight: 600;
+                    line-height: 138%;
+                    letter-spacing: -1.8px;
+                    text-transform: uppercase;
+                }
+                p {
+                    color: white;
+                    font-size: 28px;
+                    line-height: 150%; /* 42px */
+                    letter-spacing: -0.84px;
+                    margin-bottom: 78px;
+                }
+            }
+            .bot {
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+                margin-top: 64px;
+
+                .esquerda {
+                    .seta-grande {
+                        margin-bottom: 78px;
+                    }
+                    .botao {
+                    display: flex;
+                    background-color: white;
+                    width: 100%;
+                    .texto {
+                        color: black;
+                        font-size: 28px;
+                        font-weight: 600;
+                        line-height: 100%; /* 28px */
+                        letter-spacing: -0.84px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 26px 40px;
+                        img {
+                            margin-left: 24px;
+                        }
+                    }
+                    }
+                }
+                .direita {
+                    display: flex;
+                    align-items: end;
+                    p {
+                        width: 100%;
+                        max-width: 681px;
+                        height: 100%;
+                        color: #F5F5F5;
+                        font-size: 1.8rem;
+                        line-height: 170%; /* 30.6px */
+                        img {
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-ganha {
+        height: 1695px;
+        background-color: #191919;
+        padding-top: 147px;
+        .container {
+            .top {
+                margin-bottom: 97px;
+                h2 {
+                    width: 100%;
+                    font-size: 52px;
+                    font-weight: 600;
+                    line-height: 162%;
+                    letter-spacing: -1.56px;
+                    text-transform: uppercase;
+                    span {
+                    font-weight: 200;
+                    }
+                }
+                .aqui {
+                    color: white;
+                    font-weight: 300;
+                    font-size: 28px;
+                    line-height: 150%; /* 42px */
+                    letter-spacing: -0.84px;
+                }
+            }
+            .mid {
+                .boxs {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    row-gap: 25px;
+                    .card {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 384px;
+                        height: 358px;
+                        border-radius: 8px;
+                        border: 2px solid rgba(255, 255, 255, 0.08);
+                        background: rgba(255, 255, 255, 0.02);
+                        img {
+                            margin-bottom: 30px;
+                        }
+                        .bot {
+                            display: flex;
+                            flex-direction: column;
+                            p {
+                                width: 100%;
+                                max-width: 333px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
