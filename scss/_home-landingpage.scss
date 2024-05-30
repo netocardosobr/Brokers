@@ -117,14 +117,36 @@ body {
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            margin-bottom: 38px;
+                            margin-bottom: 20px;
                         }
                         .text {
                             p {
                                 width: 100%;
-                                max-width: 333px;
+                                max-width: 320px;
+                                font-size: 1.5rem;
                             }
                         }
+                    }
+                }
+            }
+            .bot {
+                position: relative;
+                img {
+                    margin-top: 90px;
+                }
+                .comissao {
+                    position: absolute;
+                    top: 55%;
+                    left: 21%;
+                    color: #FFF;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    line-height: 120%;
+                    letter-spacing: 1.6px;
+                    text-transform: uppercase;
+                    span {
+                    font-weight: 300;
                     }
                 }
             }
