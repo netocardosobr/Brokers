@@ -1,0 +1,37 @@
+h1, h2, h3 , h4 {
+    color: #ffffff;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138%;
+    letter-spacing: -1.8px;
+}
+
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 5.2rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 2.2rem;
+}
+
+p {
+    color: #787C87;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.48px;
+}
