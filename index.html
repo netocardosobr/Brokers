@@ -15,12 +15,12 @@
         <div class="container">
             <nav>
                 <img src="img/imgs_institucional/marca_header_white.svg" alt="">
-                <ul>
+                <ul class="js-nav">
                     <img src="img/imgs_institucional/menu_burger_mobile.svg" alt="">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Quem somos</a></li>
-                    <li><a href="#">Nossos produtos</a></li>
-                    <li><a href="">Nossos benefícios</a></li>
+                    <li><a href="#section-01">Home</a></li>
+                    <li><a href="#section-02">Quem somos</a></li>
+                    <li><a href="#section-03">Nossos produtos</a></li>
+                    <li><a href="#section-04">Nossos benefícios</a></li>
                     <button>
                         <a href="https://www.google.com.br/maps/preview" target="_blank">Entrar em contato</a>
                     </button>
@@ -29,7 +29,7 @@
         </div>
     </header>
     <main>
-        <div class="section-hero">
+        <div class="section-hero" id="section-01">
             <div class="container">
                 <div class="esquerda">
                     <h1>Soluções Financeiras Inteligentes para Micro
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-somos">
+        <div class="section-somos" id="section-02">
             <div class="container">
                 <div class="textos-mobile">
                     <h3>Quem somos</h3>
@@ -62,7 +62,7 @@
                     </div>
                     
                 </div>
-                <div class="produtos">
+                <div class="produtos" id="section-03">
                     <h3>Nossos produtos</h3>
                     <div class="box">
                         <div class="card consorcio">
@@ -87,7 +87,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-beneficios">
+        <div class="section-beneficios" id="section-04">
             <div class="container">
                 <h3>Nossos Benefícios</h3>
                 <div class="box">
@@ -152,5 +152,35 @@
             <p class="direitos">2024 © Todos os direitos reservados.</p>
         </div>
     </footer>
+
+
+
+
+    <script>
+
+        const linksSection = document.querySelectorAll('.js-nav li a');
+        function scrollToSection(event) {
+            event.preventDefault();
+            
+            const href = event.currentTarget.getAttribute('href');
+
+            const section = document.querySelector(href);
+            
+            const initPosition = section.offsetTop;
+
+           window.scrollTo({
+             top: initPosition - 88,
+             behavior: 'smooth'
+           })
+
+          
+
+        }
+        linksSection.forEach(link => {
+            link.addEventListener('click', scrollToSection);
+        })
+
+
+    </script>
 </body>
 </html>
