@@ -106,23 +106,20 @@ body {
                 .boxs {
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr;
-                    row-gap: 25px;
+                    gap: 20px;
                     .card {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        width: 384px;
-                        height: 358px;
                         border-radius: 8px;
                         border: 2px solid rgba(255, 255, 255, 0.08);
-                        background: rgba(255, 255, 255, 0.02);
-                        img {
-                            margin-bottom: 30px;
-                        }
-                        .bot {
+                        background: rgba(255, 255, 255, 0.02); 
+                        padding: 24px;
+                        .img {
+                            width: 100%;
                             display: flex;
-                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            margin-bottom: 38px;
+                        }
+                        .text {
                             p {
                                 width: 100%;
                                 max-width: 333px;
