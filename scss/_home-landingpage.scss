@@ -277,6 +277,8 @@ body {
                 border-top: solid 1px white;
                 height: 98px;
                 margin-top: 153px;
+                padding-top: 100px;
+                padding-bottom: 50px;
                 p {
                     color: white;
                     font-size: 15px;
@@ -291,10 +293,6 @@ body {
     }
 }
 
-
-@media(max-width: 1200px) {
-
-}
 
 @media(max-width: 900px) {
    body {
