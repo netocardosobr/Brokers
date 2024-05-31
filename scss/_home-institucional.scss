@@ -33,6 +33,10 @@ body {
                     letter-spacing: -0.48px;
                     a {
                         color: white;
+                        transition: all .3s ease;
+                    }
+                    a:hover {
+                        opacity: 70%;
                     }
                     }
                     button {
