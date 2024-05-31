@@ -7,7 +7,7 @@ body {
             padding-top: 144px;
             .top {
                 img {
-                    margin-bottom: 32px;
+                    margin-bottom: 78px;
                 }
                 h1 {
                     width: 100%;  
@@ -24,6 +24,7 @@ body {
                     line-height: 150%; /* 42px */
                     letter-spacing: -0.84px;
                     margin-bottom: 78px;
+                    margin-top: 32px;
                 }
             }
             .bot {
@@ -32,19 +33,20 @@ body {
                 align-items: end;
                 margin-top: 64px;
 
+
                 .esquerda {
                     .seta-grande {
                         margin-bottom: 78px;
                     }
                     .botao {
-                    display: flex;
                     background-color: white;
                     width: 100%;
+                    max-width: 600px;
                     .texto {
                         color: black;
                         font-size: 28px;
                         font-weight: 600;
-                        line-height: 100%; /* 28px */
+                        line-height: 100%;
                         letter-spacing: -0.84px;
                         display: flex;
                         justify-content: center;
@@ -61,11 +63,11 @@ body {
                     align-items: end;
                     p {
                         width: 100%;
-                        max-width: 681px;
+                        max-width: 400px;
                         height: 100%;
                         color: #F5F5F5;
                         font-size: 1.8rem;
-                        line-height: 170%; /* 30.6px */
+                        line-height: 170%; 
                         img {
                             align-items: center;
                             justify-content: center;
@@ -75,7 +77,6 @@ body {
             }
         }
     }
-
     .section-ganha {
         height: 1695px;
         background-color: #191919;
@@ -124,6 +125,7 @@ body {
                                 width: 100%;
                                 max-width: 320px;
                                 font-size: 1.5rem;
+                                margin-top: 10px;
                             }
                         }
                     }
@@ -148,6 +150,39 @@ body {
                     span {
                     font-weight: 300;
                     }
+                }
+            }
+        }
+    }
+    .section-pessoas {
+        background-color: aqua;
+        height: 1285px;
+        .boxs {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 32px;
+            margin-top: 110px;
+            
+            .card {
+                background-color: white;
+                padding: 24px;
+                border-radius: 8px;
+                h4 {
+                    color: #191919;              
+                    font-size: 22px;
+                    font-weight: 600;
+                    line-height: 120%; 
+                    letter-spacing: -0.66px; 
+                    margin-top: 19px;
+                }
+                p {
+                    width: 100%;
+                    max-width: 333px;
+                    color: #787C87;
+                    line-height: 150%; 
+                    letter-spacing: -0.48px;
+                    margin-top: 8px;
+                    
                 }
             }
         }
