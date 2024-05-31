@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="img/imgs_institucional/favicon.svg" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <header id="js-header">
         <div class="container">
             <nav>
                 <img src="img/imgs_institucional/marca_header_white.svg" alt="">
@@ -173,14 +173,25 @@
              behavior: 'smooth'
            })
 
-          
-
         }
         linksSection.forEach(link => {
             link.addEventListener('click', scrollToSection);
         })
 
 
+
+        const header = document.getElementById('js-header');
+
+        function fixedMenu() {
+            if(window.pageYOffset > 80) {
+                header.classList.add('fixed-menu');
+            }
+            else {
+                header.classList.remove('fixed-menu');
+            }
+        }
+
+        document.addEventListener('scroll', fixedMenu);
     </script>
 </body>
 </html>
