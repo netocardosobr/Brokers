@@ -52,7 +52,8 @@ body {
         }
         &.fixed-menu {
             box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.239);
-            transition: all .5s ease;
+            transition: box-shadow .5s ease;
+            opacity: 9%;
         }
     }
     main {
