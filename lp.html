@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brokers - Landing page</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/two.min.css">
 
 </head>
@@ -12,18 +13,18 @@
     <body>
         <div class="section-hero">
             <div class="container">
-                <div class="top">
+                <div class="top" data-aos="fade-right">
                     <img src="img/imgs_landing/marca_brokers_white.svg" alt="marca_brokers">
                     <h1>A oportunidade única <br>de você ganhar dinheiro como os grandes bancos</h1>
                     <p class="assista">Assista ao vídeo para saber como</p>
                 </div>
-                <div class="mid">
+                <div class="mid" data-aos="zoom-in">
                     <video autoplay muted loop width="100%" height="100%" type="video/mp4">
                         <source src="img/imgs_landing/video_landing.mov">
                     </video>
                 </div>
                 <div class="bot">
-                    <div class="esquerda">
+                    <div class="esquerda" data-aos="fade-down">
                         <img class="seta-grande" src="img/imgs_landing/icon_arrow_video.svg" alt="icone_seta">
                         <a href="https://linktr.ee/brokersfinance" target="_blank">
                             <div class="botao">
@@ -31,7 +32,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="direita">
+                    <div class="direita" data-aos="fade-left">
                         <p>Seja um Broker e tenha acesso a dezenas de instituições e produtos financeiros para aumento de caixa para seus clientes!</p>
                     </div>
                 </div>
@@ -39,11 +40,11 @@
         </div>
         <div class="section-ganha">
             <div class="container">
-                <div class="top">
+                <div class="top" data-aos="zoom-in">
                     <h2>Você pode ganhar dinheiro <br><span>vendendo o melhor produto do mundo</span></h2>
                     <p class="aqui">Aqui na Brokers você consegue ter acesso a produtos financeiros exclusivos para comercializar</p>
                 </div>
-                <div class="mid">
+                <div class="mid" data-aos="zoom-in">
                     <div class="boxs">
                         <div class="card">
                             <div class="img">
@@ -102,41 +103,44 @@
                     </div>
                 </div>
                 <div class="bot">
-                    <img src="img/imgs_landing/dinheiro.svg" alt="">
-                    <p class="comissao">Você ganha comissão <span>sobre o valor total das operações!</span></p>
+                    <img src="img/imgs_landing/dinheiro.svg" alt="dinheiro" data-aos="fade-up">
+                    <p class="comissao" data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0">Você ganha comissão <span>sobre o valor total das operações!</span></p>
                 </div>
             </div>
         </div>
         <div class="section-pessoas">
             <div class="container">
-                <h2>Algumas pessoas <br>que mudaram de vida com nossos produtos</h2>
+                <h2 data-aos="fade-right">Algumas pessoas <br>que mudaram de vida com nossos produtos</h2>
             <div class="boxs">
-                <div class="card">
+                <div class="card" data-aos="flip-left">
                     <img src="img/imgs_landing/pessoa_joao.png" alt="">
                     <h4 class="nome">João Carlos</h4>
                     <p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text”</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="flip-left">
                     <img src="img/imgs_landing/pessoa_marcela.png" alt="">
                     <h4 class="nome">Marcela Porto</h4>
                     <p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text”</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="flip-left">
                     <img src="img/imgs_landing/pessoa_mateus.png" alt="">
                     <h4 class="nome">Mateus Lucas</h4>
                     <p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text”</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="flip-left">
                     <img src="img/imgs_landing/pessoa_sandra.png" alt="">
                     <h4 class="nome">Sandra Almeida</h4>
                     <p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text”</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="flip-left">
                     <img src="img/imgs_landing/pessoa_mario.png" alt="">
                     <h4 class="nome">Mário Gomes</h4>
                     <p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text”</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="flip-left">
                     <img src="img/imgs_landing/pessoa_julia.png" alt="">
                     <h4 class="nome">Júlia Ferreira</h4>
                     <p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text”</p>
@@ -146,7 +150,7 @@
         </div>
         <div class="section-licenciado">
             <div class="container">
-                <div class="top">
+                <div class="top" data-aos="fade-right">
                     <div class="tag">
                         <span>Licenciado Brokers</span>
                         <img src="img/imgs_landing/traco_verde.svg" alt="">
@@ -160,7 +164,7 @@
                         </div>
                     </a>
                 </div>
-                <footer>
+                <footer data-aos="fade-up">
                     <p>
                         <strong>Brokers</strong>  -  Realizando sonhos
                     </p>
@@ -170,5 +174,13 @@
         </div>
     </body>
     
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+          AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
 </body>
 </html>
