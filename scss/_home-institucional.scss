@@ -50,6 +50,10 @@ body {
                 }
             }
         }
+        &.fixed-menu {
+            box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.239);
+            transition: all .5s ease;
+        }
     }
     main {
         padding-top: 88px;
