@@ -207,7 +207,7 @@ body {
     }
     .section-licenciado {
         width: 100%;
-        height: 1076px;
+        height: 100%;
         background-color: #214B3B;
         padding-top: 88px;
         .container {
@@ -356,6 +356,122 @@ body {
                     }
                     
                     
+                }
+            }
+        }
+        .section-ganha {
+            padding-top: 100px;
+            .container {
+                .top {
+                    margin-bottom: 50px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    h2 {
+                        font-size: 3.5rem;
+                        max-width: 600px;
+                        text-align: center;
+                    }
+                    .aqui {
+                        font-size: 2.2rem;
+                        margin-top: 30px;
+                        max-width: 500px;
+                        text-align: center;
+                    }
+                }
+                .mid {
+                    .boxs {
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        .card {
+                            .text {
+                                
+                                p {
+                                    width: 100%;
+                                    max-width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+                .bot {
+                    .comissao {
+                        font-size: 1.3rem;
+                        top: 30%;
+                        left: 10%;
+                        
+                    }
+                }
+            }
+        }
+        .section-pessoas {
+            .container {
+                h2 {
+                    font-size: 3.6rem;
+                    width: 500px;
+                    text-align: center;
+                    display: flex;
+                    margin: 0 auto;
+                }
+                .boxs {
+                    grid-template-columns: 1fr;
+                    .card {
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                        .nome {
+                            margin-top: 0px;
+                        }
+                    }
+                }
+            }
+        }
+        .section-licenciado {
+            padding-top: 0px;
+            padding-bottom: 50px;
+            .container {
+                footer {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    margin-top: 80px;
+                    .mobile {
+                        padding-top: 50px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    body {
+        .section-pessoas {
+            .container {
+                h2 {
+                    width: 100%;
+                    font-size: 3.4rem;
+                }
+            }
+        }
+        .section-licenciado {
+            .container {
+                .top {
+                    .tag {
+                        span {
+                            font-size: 1.4rem;
+                        }
+                    }
+                    h3 {
+                        width: 100%;
+                        font-size: 3.5rem;
+                    }
+                    .voce-pode {
+                        font-size: 1.8rem;
+                    }
                 }
             }
         }
