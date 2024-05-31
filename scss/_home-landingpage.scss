@@ -475,3 +475,92 @@ body {
         }
     }
 }
+
+@media(max-width:412px) {
+    body {
+        .section-hero {
+            .container {
+                padding-top: 80px;
+                .top  {
+                    h1 {
+                        font-size: 2.9rem;
+                        
+                    }
+                    .assista {
+                        font-size: 2rem;
+                    }
+                }
+                .bot {
+                    .esquerda {
+                        .seta-grande {
+                            margin-bottom: 50px;
+                        }
+                        .botao {
+                            .texto {
+                                font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+        }
+        .section-ganha {
+            .container {
+                .top {
+                    h2 {
+                        font-size: 2.5rem;
+                        text-align: center;
+                    }
+                    .aqui {
+                        font-size: 1.8rem;
+                    }
+                }
+                .bot {
+                    .comissao {
+                        width: 200px;
+                        text-align: center;
+                        top: 10%;
+                        left: 25%;
+                    }
+                }
+            }
+        }
+        .section-pessoas {
+            .container {
+                h2 {
+                    padding-top: 100px;
+                }
+                .boxs {
+                    margin-top: 70px;
+                    .card {
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+        .section-licenciado {
+            .container {
+                .top {
+                    padding: 60px;
+                    h3 {
+                        font-size: 2.3rem;
+                        width: 100%;
+                    }
+                    .voce-pode {
+                        font-size: 1.5rem;
+                    }
+                    .botao {
+                        p {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+                footer {
+                    .mobile {
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+}
+}
