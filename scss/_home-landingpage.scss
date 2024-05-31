@@ -27,6 +27,9 @@ body {
                     margin-top: 32px;
                 }
             }
+            .mid {
+
+            }
             .bot {
                 display: flex;
                 justify-content: space-between;
@@ -473,7 +476,7 @@ body {
     }
 }
 
-@media(max-width:412px) {
+@media(max-width:477px) {
     body {
         .section-hero {
             .container {
